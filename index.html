@@ -10,24 +10,43 @@
   <body>
     <!-- ==================== NAVBAR ==================== -->
     <header class="navbar">
-      <a href="#" class="logo">
-        <img
-          src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
-          alt="Treact Logo"
-        />
-        <span>Treact</span>
-      </a>
 
-      <nav>
-        <a href="#about">About</a>
-        <a href="#blog">Blog</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact Us</a>
-        <a href="#">Login</a>
-        <a href="#" class="signup">Sign Up</a>
-      </nav>
-    </header>
+  <a href="#" class="logo">
+    <img
+      src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+      alt="Treact"
+    />
+    <span>Treact</span>
+  </a>
 
+  <nav id="navMenu">
+    <a href="#about">About</a>
+    <a href="#">Blog</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#">Login</a>
+    <a href="#" class="signup">Sign Up</a>
+  </nav>
+
+  <button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Open menu"
+    aria-expanded="false"
+  >
+    <svg
+      class="hamburger-icon"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M3 6h18M3 12h18M3 18h18" />
+    </svg>
+
+    <span class="close-icon">&times;</span>
+  </button>
+
+</header>
     <!-- ==================== HERO ==================== -->
     <section class="hero">
       <div class="hero-text">
@@ -262,7 +281,7 @@
 
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
 
         <div class="value-grid">
@@ -423,21 +442,28 @@
 
         <p>
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
         </p>
+          <div class="testimonial-person">
 
-        <div class="testimonial-person">
-          <div>
-            <strong>Charlotte Hale</strong>
-            <small>Director, Delos Inc.</small>
-          </div>
+  <div class="testimonial-profile">
+    <img
+      src="./assets/photo-1494790108377-be9c29b29330.avif"
+      alt="Charlotte Hale"
+      class="testimonial-profile-img"
+    />
 
+    <div>
+      <strong>Charlotte Hale</strong>
+      <small>Director, Delos Inc.</small>
+    </div>
+  </div>
 
+  <div class="testimonial-buttons">
+    <button>←</button>
+    <button>→</button>
+  </div>
 
-          <div class="testimonial-buttons">
-            <button>←</button>
-            <button>→</button>
-          </div>
         </div>
       </div>
     </section>
@@ -515,5 +541,50 @@
         </div>
       </div>
     </footer>
+    <script>
+      const menuButton = document.getElementById("menuButton");
+     menuButton.addEventListener("click", function() {
+      document.body.classList.toggle("menu-open");
+      });
+    </script>
+<header class="navbar">
+
+  <a href="#" class="logo">
+    <img
+      src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+      alt="Treact"
+    />
+    <span>Treact</span>
+  </a>
+
+  <nav id="navMenu">
+    <a href="#about">About</a>
+    <a href="#">Blog</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact Us</a>
+    <a href="#">Login</a>
+    <a href="#" class="signup">Sign Up</a>
+  </nav>
+
+  <button
+    class="menu-button"
+    id="menuButton"
+    type="button"
+    aria-label="Open menu"
+    aria-expanded="false"
+  >
+    <svg
+      class="hamburger-icon"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M3 6h18M3 12h18M3 18h18" />
+    </svg>
+
+    <span class="close-icon">&times;</span>
+  </button>
+
+</header>
+
   </body>
 </html>
