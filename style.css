@@ -35,7 +35,6 @@ img {
   max-width: 100%;
 }
 
-
 /* ========================================
    COLORS
 ======================================== */
@@ -43,7 +42,6 @@ img {
 .purple {
   color: #6415ff !important;
 }
-
 
 /* ========================================
    NAVBAR
@@ -100,7 +98,6 @@ img {
 
   border-radius: 999px;
 }
-
 
 /* ========================================
    HERO
@@ -217,7 +214,6 @@ img {
   max-width: 720px;
 }
 
-
 /* ========================================
    SHARED IMAGE STYLES
 ======================================== */
@@ -236,7 +232,6 @@ img {
   border: 1px solid #e2e8f0;
   border-radius: 5px;
 }
-
 
 /* ========================================
    GENERAL SECTIONS
@@ -288,7 +283,6 @@ img {
   font-size: 16px;
   line-height: 1.7;
 }
-
 
 /* ========================================
    FEATURES
@@ -343,7 +337,6 @@ img {
   line-height: 2;
 }
 
-
 /* ========================================
    SPLIT SECTIONS
 ======================================== */
@@ -387,7 +380,6 @@ img {
 .primary-button:hover {
   background: #5011cc;
 }
-
 
 /* ========================================
    STEPS
@@ -436,7 +428,6 @@ img {
   font-size: 14px;
   line-height: 2;
 }
-
 
 /* ========================================
    VALUES
@@ -494,7 +485,6 @@ img {
   line-height: 1.8;
 }
 
-
 /* ========================================
    PRICING
 ======================================== */
@@ -538,11 +528,7 @@ img {
 .popular {
   color: white;
 
-  background: linear-gradient(
-    135deg,
-    #6415ff,
-    #7f3cff
-  );
+  background: linear-gradient(135deg, #6415ff, #7f3cff);
 
   transform: scale(1.03);
 }
@@ -629,7 +615,6 @@ img {
   color: #6415ff;
   background: white;
 }
-
 
 /* ========================================
    TESTIMONIALS
@@ -864,13 +849,11 @@ footer {
   font-weight: 900;
 }
 
-
 /* ========================================
    TABLET
 ======================================== */
 
 @media (max-width: 1000px) {
-
   .navbar nav {
     gap: 18px;
   }
@@ -891,13 +874,11 @@ footer {
   }
 }
 
-
 /* ========================================
    MOBILE
 ======================================== */
 
 @media (max-width: 800px) {
-
   .navbar {
     flex-direction: column;
 
@@ -1003,13 +984,11 @@ footer {
   }
 }
 
-
 /* ========================================
    SMALL PHONES
 ======================================== */
 
 @media (max-width: 500px) {
-
   .navbar {
     padding: 25px 20px;
   }
@@ -1068,7 +1047,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-}/* ========================================
+} /* ========================================
    FINAL DESKTOP POLISH
    Add this at the END of style.css
 ======================================== */
@@ -1111,7 +1090,6 @@ footer {
   width: 100%;
 }
 
-
 /* ---------- HERO ---------- */
 
 .hero {
@@ -1132,7 +1110,6 @@ footer {
   line-height: 1.75;
 }
 
-
 /* ---------- SECTION TITLES ---------- */
 
 .section-heading > span,
@@ -1148,7 +1125,6 @@ footer {
 .testimonial-text h2 {
   letter-spacing: -1px;
 }
-
 
 /* ---------- FEATURES ---------- */
 
@@ -1175,7 +1151,6 @@ footer {
   max-width: 230px;
 }
 
-
 /* ---------- QUALITY WORK ---------- */
 
 .split-section {
@@ -1194,7 +1169,6 @@ footer {
   max-width: 500px;
 }
 
-
 /* ---------- SCREENSHOT IMAGES ---------- */
 
 .screenshot-image {
@@ -1210,7 +1184,6 @@ footer {
 .steps-image .screenshot-image {
   max-width: 600px;
 }
-
 
 /* ---------- STEPS ---------- */
 
@@ -1232,7 +1205,6 @@ footer {
   font-weight: 700;
 }
 
-
 /* ---------- VALUES ---------- */
 
 .values {
@@ -1248,7 +1220,6 @@ footer {
   width: 100%;
   max-width: 560px;
 }
-
 
 /* ---------- PRICING ---------- */
 
@@ -1283,7 +1254,6 @@ footer {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-
 
 /* ---------- TESTIMONIAL ---------- */
 
@@ -1324,7 +1294,6 @@ footer {
   transform: scale(1.05);
 }
 
-
 /* ---------- CTA ---------- */
 
 .cta {
@@ -1346,7 +1315,6 @@ footer {
 .cta button:hover {
   transform: translateY(-2px);
 }
-
 
 /* ---------- FOOTER ---------- */
 
@@ -1379,13 +1347,11 @@ footer {
   transform: scale(1.1);
 }
 
-
 /* ========================================
    BETTER TABLET RESPONSIVENESS
 ======================================== */
 
 @media (max-width: 1000px) {
-
   .hero {
     grid-template-columns: 45% 55%;
   }
@@ -1409,13 +1375,11 @@ footer {
   }
 }
 
-
 /* ========================================
    MOBILE POLISH
 ======================================== */
 
 @media (max-width: 800px) {
-
   .hero {
     min-height: auto;
   }
@@ -1453,123 +1417,126 @@ footer {
     min-height: auto;
   }
 }
-     @media (max-width: 800px) {
-      .feature-grid {
-        grid-template-columns: 1fr;
-        gap: 50px;
-      }
-      .feature {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 15px;
-      }
-      .feature-icon {
-        margin: 0 auto;
-      }
-      .feature h3 {
-        margin-bottom: 8px;
-      }
-      .feature p {
-        max-width: 300px;
-        margin: 0 auto;
-        line-height: 1.8;
-      }
-    .steps {
-      grid-template-columns: 1fr;
-      gap: 50px;
-    }
-    .steps-content {
-      width: 100%;
-      max-width: 500px;
-      margin: 0 auto;
+@media (max-width: 800px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .feature-icon {
+    margin: 0 auto;
+  }
+  .feature h3 {
+    margin-bottom: 8px;
+  }
+  .feature p {
+    max-width: 300px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .steps-content {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .steps-content > span {
+    display: block;
+    text-align: center;
+  }
+  .steps-content h2 {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 40px;
+  }
+  .step strong {
+    font-size: 36px;
+    margin-bottom: 5px;
+    display: block;
+    line-height: 1;
+    color: #cbd5e0;
+  }
+
+  @media (max-width: 800px) {
+    /* Center the entire Values text side */
+    .split-text {
       text-align: center;
     }
-    .steps-content > span {
-      display: block;
-      text-align: center;
-    }
-    .steps-content h2 {
-      margin-bottom: 45px;
-      text-align: center; 
-    }
-    .step {
+    .value-grid {
       display: flex;
       flex-direction: column;
       align-items: center;
-      text-align: center;
-      gap: 8px;
-      margin-bottom: 40px;
+      gap: 45px;
+      width: 100%;
     }
-    .step strong {
-      font-size: 36px;
-      margin-bottom: 5px;
-      display: block;
-      line-height: 1;
-      color:#cbd5e0;
-  
-    }
-
-
-@media (max-width: 800px) {
-
-  /* Center the entire Values text side */
-  .split-text {
-    text-align: center;
-  }
-  .value-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
-    width: 100%;
-  }
     .value {
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    .value-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .value-icon {
+      margin: 0 auto;
+    }
+    .value h3 {
+      text-align: center;
+      margin: 0;
+    }
+    .value p {
+      max-width: 350px;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 1.8;
+    }
+    .split-text .primary-button {
+      display: block;
+      margin: 35px auto 0;
+    }
   }
-  .value-title {
+  .testimonial-profile {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 15px;
-    text-align: center;
+    gap: 16px;
   }
-  .value-icon {
-    margin: 0 auto;
-  }
- .value h3 {
-    text-align: center;
-    margin: 0;
-  }
-  .value p {
-    max-width: 350px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.8;
-  }
-   .split-text .primary-button {
-    display: block;
-    margin: 35px auto 0;
-  }
-}
-.testimonial-profile {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
 
-.testimonial-profile-img {
+  .testimonial-profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  .testimonial-profile-img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
 }
- .testimonial {
+    flex-shrink: 0;
+  }
+  .testimonial {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1601,11 +1568,6 @@ footer {
     gap: 10px;
   }
 
-  .testimonial-profile-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
   }
 
   .testimonial-profile strong {
@@ -1634,7 +1596,6 @@ footer {
 }
 
 @media (max-width: 800px) {
-
   /* NAVBAR */
 
   .navbar {
@@ -1661,7 +1622,6 @@ footer {
     width: 40px;
     height: 40px;
   }
-
 
   /* HERO */
 
@@ -1742,11 +1702,9 @@ footer {
   display: none;
 }
 
-
 /* MOBILE */
 
 @media (max-width: 800px) {
-
   .navbar {
     position: relative;
 
@@ -1764,7 +1722,6 @@ footer {
   .navbar nav {
     display: none;
   }
-
 
   /* MENU OPEN */
 
@@ -1804,7 +1761,6 @@ footer {
     border-radius: 999px;
   }
 
-
   /* SWITCH HAMBURGER → X */
 
   body.menu-open .hamburger-icon {
@@ -1816,7 +1772,6 @@ footer {
   }
 }
 @media (max-width: 768px) {
-
   /* Hero text */
   .hero-text {
     display: flex;
@@ -1843,4 +1798,24 @@ footer {
     margin: 0;
     border-radius: 999px;
   }
+}
+/* FORCE TESTIMONIAL PROFILE PHOTO SIZE */
+.testimonial .testimonial-person .testimonial-profile .testimonial-profile-img {
+  width: 80px !important;
+  height: 80px !important;
+  min-width: 80px !important;
+  max-width: 80px !important;
+  min-height: 80px !important;
+  max-height: 80px !important;
+
+  border-radius: 50% !important;
+  object-fit: cover;
+  display: block;
+  flex: 0 0 80px;
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
